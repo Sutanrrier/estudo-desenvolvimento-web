@@ -1,0 +1,19 @@
+.teste {
+  color: crimson;
+  font-size: 64px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+
+}
+body {
+  background-color: antiquewhite;
+  background-image: url(/HTML/images/image1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+#p1{
+padding: 20px;
+margin-left: 100px;
+
+}
