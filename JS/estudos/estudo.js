@@ -1,12 +1,12 @@
 //Variaveis tipo primitivo
 let idade = 21;
 let altura = 1.71;
-let nome = "Pablo"
+let nome = "Pablo";
 console.log(idade, altura, nome);
 
 //Constante
 const preco = 2.01;
-console.log("Preço: ", preco)
+console.log("Preço: ", preco);
 
 //Criando um objeto
 let pessoa = {
@@ -25,5 +25,5 @@ function resetaCor(cor){
 }
 
 //Operadores de igualdade
-console.log("1" == 1)
-console.log("1" === 1)
+console.log("1" == 1);
+console.log("1" === 1);
