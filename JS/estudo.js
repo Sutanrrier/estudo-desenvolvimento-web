@@ -23,3 +23,7 @@ let corSite = "Azul";
 function resetaCor(cor){
     corSite = cor;
 }
+
+//Operadores de igualdade
+console.log("1" == 1)
+console.log("1" === 1)
