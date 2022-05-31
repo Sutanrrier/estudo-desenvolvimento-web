@@ -30,3 +30,8 @@ pessoa2.mostrarInfo();
 //Clonando objetos
 const pessoaClone = {...pessoa2};
 pessoaClone.mostrarInfo();
+
+//Datas
+
+const data1 = new Date();
+console.log(data1);
