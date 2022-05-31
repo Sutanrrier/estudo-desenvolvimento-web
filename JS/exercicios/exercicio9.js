@@ -2,13 +2,12 @@
 
 //Solução
 function exibirAsteriscos(quantidade) {
-    let string = "";
     for (let i = 1; i <= quantidade; i++) {
+        let string = "";
         for (let j = 1; j <= i; j++) {
             string += "*";
         }
         console.log(string);
-        string = "";
     }
 }
 
