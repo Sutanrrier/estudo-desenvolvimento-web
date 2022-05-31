@@ -6,12 +6,13 @@ function mediaNotas(notas){
     for (let nota of notas){
         media += nota;
     }
-    return media / notas.length;
+    media = media / notas.length;
+    return (media >= 6) ? (media + " -> Passou!") : (media + " -> Reprovou!");
 }
 
 //Exemplos
-const notas = [3,5,4];
+const notas = [3,5,3];
 console.log(mediaNotas(notas));
 
-const notas2 = [3,5,13];
+const notas2 = [3,5,10];
 console.log(mediaNotas(notas2));
